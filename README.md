@@ -2,6 +2,10 @@
 
 Campus event discovery and registration site (frontend).
 
+## Live Demo
+
+[View Huddle Website](https://aakshaya302007.github.io/Huddle/)
+
 ## Run
 Open `index.html` in a browser. No build step or installs needed.
 
