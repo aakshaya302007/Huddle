@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Huddle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-in">
+  <button class="brand" data-go="home" aria-label="Huddle home"><i></i>Huddle</button>
+  <nav class="links" aria-label="Main">
+    <button class="lnk" data-go="home">Home</button>
+    <button class="lnk" data-go="events">Events</button>
+    <button class="lnk" data-go="dashboard">My events</button>
+    <button class="lnk" data-act="host">Host an event</button>
+    <button class="icon-btn" id="theme" aria-label="Toggle theme" title="Toggle theme">◐</button>
+    <span id="authslot"></span>
+  </nav>
+</div></header>
+<main class="wrap view" id="app" aria-live="polite"></main>
+<div id="toasts" role="status" aria-live="polite"></div>
+<div id="modal"></div>
+<script src="app.js"></script>
+</body>
+</html>
