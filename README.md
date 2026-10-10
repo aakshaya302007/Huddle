@@ -6,9 +6,6 @@ Campus event discovery and registration site (frontend).
 
 [View Huddle Website](https://aakshaya302007.github.io/Huddle/)
 
-## Run
-Open `index.html` in a browser. No build step or installs needed.
-
 ## Test login
 - Email: student@quadrangle.test
 - Password: Student@123
